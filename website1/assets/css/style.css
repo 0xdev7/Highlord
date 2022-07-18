@@ -1,0 +1,330 @@
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 100px;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+
+  margin: 0px;
+
+  background: #0b1537;
+}
+
+#header {
+  position: relative;
+  height: 80px;
+
+  background: linear-gradient(90deg, #e18d41, #feac50, #ae5c2f);
+}
+
+#header::before {
+  content: ' ';
+
+  position: absolute;
+  
+  width: 0px;
+  height: 0px;
+
+  top: -100px;
+  left: -100px;
+  right: -100px;
+  bottom: 100px;
+  
+  z-index: -1;
+
+  background: linear-gradient(90deg, #e18d41, #feac50, #ae5c2f);
+  transform: rotate(-2deg);
+}
+
+#header .container {
+  justify-content: center;
+}
+
+.dmenu {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0px auto;
+  padding: 50px 100px 0px 100px;
+  
+  list-style: none; 
+}
+
+.dmenu a {
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-container {
+  padding: 150px 0px;
+
+  background: url(../img/bg_logo.png);
+  background-size: 120% 140%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#home {
+  min-height: calc(100vh - 80px);
+  background: url(../img/bg_section1.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+  margin-top: -50px;
+}
+
+.buy {
+  margin-top: -40px;
+}
+
+.buy .nft-title img { 
+  margin-bottom: 5px;
+  z-index: 10000;
+}
+
+.buy .nft-buy a {
+  display: block;
+
+  padding: 10px;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #fbb32c!important;
+
+  outline: none;
+  border: 2px solid #fbb32c;
+  border-radius: 100px;
+
+  z-index: 10000;
+}
+
+.buy .nft-buy img {
+  float: right;
+  margin-right: -10px;
+  margin-top: -67px;
+  width: auto;
+  height: 75px;
+}
+
+.carousel-container {
+  margin-top: 100px;
+  background: url(../img/slider_border.png);
+}
+
+#ar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 70px;
+
+  background: url(../img/ar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ar-header {
+  width: 350px;
+  margin-top: -30px;
+}
+
+.ar-back {
+  visibility: hidden;
+}
+
+#crypto {
+  background: #033a7d;
+  padding-top: 30px;
+}
+
+#crypto .container * {
+  margin-bottom: 70px;
+}
+
+#crypto .container img {
+  width: 450px;
+}
+
+#crypto .container h3 {
+  text-shadow: 2px 2px 5px black;
+}
+
+#about {
+  background: white;
+  padding-bottom: 50px;
+}
+
+#about .container {
+  padding-top: 30px;
+}
+
+#about img {
+  width: 350px;
+}
+
+#about h2 {
+  text-align: left;
+  font-weight: 700;
+  color: #0b153a;
+}
+
+#about p {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  color: #172f5c;
+}
+
+#corner {
+  background: linear-gradient(135deg, #002158 30%, #1771d3);
+
+  text-align: center;
+}
+
+#corner .container {
+  margin: 70px auto 30px auto;
+}
+
+.corner-header {
+  width: 350px;
+  margin-top: -130px;
+}
+
+
+#download {
+  display: block;
+  width: 100%;
+  
+  padding: 7px 0px;
+  
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+.pencil-img {
+  margin-top: -77px;
+}
+
+.house-img {
+  margin-top: -100px;
+}
+
+#newletter {
+  padding-top: 50px;
+}
+
+#newletter .container {
+  margin-bottom: 50px;
+}
+
+#newletter h2 {
+  font-weight: 700;
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
+
+#newletter .form {
+  display: flex;
+  justify-content: space-between;
+}
+
+#newletter input {
+  width: calc(100% - 300px);
+  padding: 12px 40px;
+  background: transparent;
+
+  border: 2px solid #4c536c;
+  border-radius: 100px;
+
+  font-size: 23px;
+  font-weight: 700;
+  color: #4c536c;
+}
+
+#newletter a {
+  width: 250px;
+  padding: 12px 70px;
+  background: #fbb32c;
+
+  border: 2px solid #4c536c;
+  border-radius: 100px;
+
+  text-align: center;
+
+  font-size: 23px;
+  font-weight: 700;
+
+  color: #002158;
+}
+
+#contact {
+  margin-top: -5px;
+
+  background: #002f6d;
+}
+
+#contact > div {
+  margin: 0px;
+}
+
+#footer {
+  margin-top: -100px;
+}
+
+#footer .semi-footer{
+  background: #fbb32c;
+  margin-top: -5px;
+  padding: 70px 0px 30px 0px;
+}
+
+#footer .flag-icon {
+  width: 20px;
+  margin-top: -3px;
+}
+
+#footer .bot-footer {
+  background: #fbb32c;
+
+}
+
+.bot-footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot-footer ul {
+  display: flex;
+}
+
+.bot-footer li {
+  margin-right: 50px;
+}
+
+.bot-footer p {
+  color: white;
+}
